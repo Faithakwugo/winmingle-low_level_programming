@@ -2,12 +2,16 @@
 
 void print_line(int n){
 	int i;
-	if(n < 1)
+	if(n < 1){
 		_putchar('\n');
-	else
+	}
+	else{
 		for(i = 1; i <= n; i++){
 			_putchar('_');
 		}
-	_putchar('\n');
+	}
+	if(n > 0){
+		_putchar('\n');
+	}
 
 }
