@@ -2,7 +2,6 @@
 
 char *_strcpy(char *dest, char *src){
 	int i = 0;
-	int len;
 	while(src[i] != '\0'){
 		dest[i] = src[i];
 		i++;
