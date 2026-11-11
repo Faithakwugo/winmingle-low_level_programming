@@ -11,8 +11,8 @@ int main(void){
 
 	srand(time(NULL));
 	for(i = 0; i < 12; i++){
-		putchar(characters[rand() % 62]);
+		_putchar(characters[rand() % 62]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return(0);
 }

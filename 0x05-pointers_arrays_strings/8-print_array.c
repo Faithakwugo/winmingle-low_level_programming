@@ -1,5 +1,5 @@
 #include "main.h"
-stati void print_unit(unsigned int num){
+static void print_unit(unsigned int num){
 	if(num / 10)
 		print_unit(num / 10);
 	_putchar((num % 10 ) + '0');
