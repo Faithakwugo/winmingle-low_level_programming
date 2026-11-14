@@ -15,7 +15,6 @@ char *cap_string(char *str){
 		}
 		i++;
 	}
-	_putchar('\n');
 	return(str);
 }
 
